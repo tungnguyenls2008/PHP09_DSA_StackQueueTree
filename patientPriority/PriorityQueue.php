@@ -57,8 +57,8 @@ Class PriorityQueue
         $this->_queue = $tempArray;
     }
 
-
-    public function ChangePriority($priorityOld, $priorityNew)
+// not necessary
+    /*public function ChangePriority($priorityOld, $priorityNew)
     {
         $priorityOld = $this->CheckPriority($priorityOld, "ChangePriority");
         $priorityNew = $this->CheckPriority($priorityNew, "ChangePriority");
@@ -77,7 +77,7 @@ Class PriorityQueue
             echo "Error: Priority is out of range ChangePriority";
             exit;
         }
-    }
+    }*/
 
 
     public function RemoveFromQueue($priority = 0)
